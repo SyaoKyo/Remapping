@@ -1,0 +1,26 @@
+﻿生成启动时间为 2018/7/4 13:17:34。
+     1>项目“F:\GitHub\OpenCV2.14\Remapping\Remapping\Remapping.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Remapping.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Remapping.cpp
+         Remapping.cpp
+     1>f:\github\opencv2.14\remapping\remapping\remapping.cpp(24): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>f:\github\opencv2.14\remapping\remapping\remapping.cpp(25): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>f:\github\opencv2.14\remapping\remapping\remapping.cpp(28): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>f:\github\opencv2.14\remapping\remapping\remapping.cpp(29): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>f:\github\opencv2.14\remapping\remapping\remapping.cpp(32): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>f:\github\opencv2.14\remapping\remapping\remapping.cpp(33): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>f:\github\opencv2.14\remapping\remapping\remapping.cpp(36): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>f:\github\opencv2.14\remapping\remapping\remapping.cpp(37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\GitHub\OpenCV2.14\Remapping\Debug\Remapping.exe" /INCREMENTAL /NOLOGO opencv_ml2413d.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_objdetect2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_nonfree2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_videostab2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\GitHub\OpenCV2.14\Remapping\Debug\Remapping.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\GitHub\OpenCV2.14\Remapping\Debug\Remapping.lib" /MACHINE:X86 Debug\Remapping.obj
+         Remapping.vcxproj -> F:\GitHub\OpenCV2.14\Remapping\Debug\Remapping.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Remapping.tlog\unsuccessfulbuild”。
+         正在对“Debug\Remapping.tlog\Remapping.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\GitHub\OpenCV2.14\Remapping\Remapping\Remapping.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.19
