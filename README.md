@@ -23,16 +23,19 @@
   <div align=center>
     <img src="./pic/65cb69a4d600d77c7e7138dd6c9ba239b9f80498.png" alt="h(x,y) = (I.cols - x, y )">
   </div>
+  
   会发生什么? 图像会按照 ![x](http://www.opencv.org.cn/opencvdoc/2.3.2/html/_images/math/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png) 轴方向发生翻转. 例如, 源图像如下:
 
   <div align=center>
     <img src="./pic/Remap_Tutorial_Theory_0.jpg" alt="Original test image">
   </div>
+  
   看到红色圈关于 x 的位置改变( ![x](http://www.opencv.org.cn/opencvdoc/2.3.2/html/_images/math/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png) 轴水平翻转):
 
   <div align=center>
     <img src="./pic/Remap_Tutorial_Theory_1.jpg" alt="Original test image">
   </div>
+  
 - 通过 OpenCV 的函数 [remap](http://opencv.willowgarage.com/documentation/cpp/imgproc_geometric_image_transformations.html?#remap) 提供一个简单的重映射实现.
 
 ## 代码解释
