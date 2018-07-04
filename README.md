@@ -12,22 +12,27 @@
 
 - 我们通过重映射来表达每个像素的位置 ![(x,y)](./pic/e53b1fe25be1c679117fb44a6a886fe1247d189a.png) :
 
-  ![g(x,y) = f ( h(x,y) )](./pic/5ff6b95a7a2a7f5fb903ac9d2c01dbd8e06001f0.png)
+  <div align=center>
+    <img src="./pic/5ff6b95a7a2a7f5fb903ac9d2c01dbd8e06001f0.png" alt="g(x,y) = f ( h(x,y) )">
+  </div>
 
   这里 ![g()](./pic/ba5e9a60a65542944912842f1e39d2e59109a982.png) 是目标图像, ![f()](./pic/000f57a64857544881bb077281d5b6c75a840d2f.png) 是源图像, ![h(x,y)](./pic/bd3b5133916b829104d2639b2cc87b0a88de7513.png) 是作用于 ![(x,y)](./pic/e53b1fe25be1c679117fb44a6a886fe1247d189a.png) 的映射方法函数.
 
 - 让我们来思考一个快速的例子. 想象一下我们有一个图像 ![I](./pic/027f4a11d6090f9eac0ce2488df6384dad1263ea.png) , 我们想满足下面的条件作重映射:
 
-  ![h(x,y) = (I.cols - x, y )](./pic/65cb69a4d600d77c7e7138dd6c9ba239b9f80498.png)
-
+  <div align=center>
+    <img src="./pic/65cb69a4d600d77c7e7138dd6c9ba239b9f80498.png" alt="h(x,y) = (I.cols - x, y )">
+  </div>
   会发生什么? 图像会按照 ![x](http://www.opencv.org.cn/opencvdoc/2.3.2/html/_images/math/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png) 轴方向发生翻转. 例如, 源图像如下:
 
-  ![Original test image](./pic/Remap_Tutorial_Theory_0.jpg)  
-
+  <div align=center>
+    <img src="./pic/Remap_Tutorial_Theory_0.jpg" alt="Original test image">
+  </div>
   看到红色圈关于 x 的位置改变( ![x](http://www.opencv.org.cn/opencvdoc/2.3.2/html/_images/math/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png) 轴水平翻转):
 
-  ![Original test image](./pic/Remap_Tutorial_Theory_1.jpg) 
-
+  <div align=center>
+    <img src="./pic/Remap_Tutorial_Theory_1.jpg" alt="Original test image">
+  </div>
 - 通过 OpenCV 的函数 [remap](http://opencv.willowgarage.com/documentation/cpp/imgproc_geometric_image_transformations.html?#remap) 提供一个简单的重映射实现.
 
 ## 代码解释
